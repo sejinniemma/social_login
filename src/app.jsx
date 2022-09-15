@@ -1,12 +1,16 @@
 import './app.module.css';
 import Login from './login/login';
-import styles from './app.module.css';
+import UserPage from './userPage/user';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App({ auth }) {
   return (
-    <div className={styles.container}>
-      <Login auth={auth} />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Login auth={auth} />} />
+        <Route path='/user' element={<UserPage auth={auth} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

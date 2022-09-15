@@ -6,17 +6,23 @@
 }
 
 .login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: antiquewhite;
+  height: 20vh;
 }
 
 ul {
   padding: 0;
-}
-li {
   list-style: none;
 }
 
-button {
+li {
+  margin-bottom: 4px;
+}
+
+.button {
   width: 80%;
   margin-bottom: 4px;
   outline: none;
@@ -24,9 +30,12 @@ button {
   border-radius: 8px;
   background: none;
   cursor: pointer;
+  font-size: large;
+  padding: 8px;
+  font-weight: 600;
 }
 
-button:hover {
+.button:hover {
   background-color: salmon;
 }
 

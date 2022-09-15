@@ -6,9 +6,10 @@ import Auth from './service/auth_service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const auth = new Auth();
+
 root.render(
   <React.StrictMode>
-    <div className={styles.app}>
+    <div className='container'>
       <App auth={auth} />
     </div>
   </React.StrictMode>

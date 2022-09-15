@@ -1,5 +1,15 @@
 .header {
+  position: relative;
+  display: flex;
+  justify-content: center;
   background-color: steelblue;
   color: white;
   margin: 0;
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
 }

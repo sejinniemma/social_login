@@ -6,6 +6,10 @@ class Auth {
     return firebaseAuth.signInWithPopup(authProvider);
   }
 
+  logout() {
+    return firebaseAuth.signOut();
+  }
+
   getProvider(providerName) {
     switch (providerName) {
       case 'Facebook':
