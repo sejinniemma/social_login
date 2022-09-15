@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+
+.login {
+  background-color: antiquewhite;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+button {
+  width: 80%;
+  margin-bottom: 4px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: salmon;
+}
+
+* {
+  box-sizing: border-box;
+}
