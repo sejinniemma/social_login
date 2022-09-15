@@ -2,10 +2,10 @@ import './app.module.css';
 import Login from './login/login';
 import styles from './app.module.css';
 
-function App() {
+function App({ auth }) {
   return (
     <div className={styles.container}>
-      <Login />
+      <Login auth={auth} />
     </div>
   );
 }
