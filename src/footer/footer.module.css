@@ -1,5 +1,7 @@
 .footer {
-  background-color: steelblue;
-  color: white;
+  background-color: #262626;
+  color: rgb(87, 82, 82);
   margin: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }

@@ -2,9 +2,11 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: steelblue;
-  color: white;
+  background-color: #262626;
+  color: rgb(87, 82, 82);
   margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .button {

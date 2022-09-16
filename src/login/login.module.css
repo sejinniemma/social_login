@@ -1,27 +1,34 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   text-align: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(255, 255, 248, 0);
+  box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(255, 255, 248, 0);
 }
 
 .login {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: antiquewhite;
-  height: 20vh;
+  background-color: white;
+  height: 30vh;
 }
 
 ul {
   padding: 0;
   list-style: none;
+  margin: 0;
 }
 
 li {
   margin-bottom: 4px;
 }
-
+span {
+  margin-top: 8px;
+}
 .button {
   width: 80%;
   margin-bottom: 4px;
@@ -33,10 +40,23 @@ li {
   font-size: large;
   padding: 8px;
   font-weight: 600;
+  color: white;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(255, 255, 248, 0);
+  box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(255, 255, 248, 0);
 }
 
 .button:hover {
-  background-color: salmon;
+  opacity: 0.9;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.google {
+  background-color: #dd4b39;
 }
 
 * {

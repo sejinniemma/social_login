@@ -20,17 +20,25 @@ const Login = ({ auth }) => {
       <div className={styles.login}>
         <ul>
           <li>
-            <button className={styles.button} onClick={onClick}>
+            <button
+              className={`${styles.button} ${styles.facebook}`}
+              onClick={onClick}
+            >
               Facebook
             </button>
           </li>
           <li>
-            <button className={styles.button} onClick={onClick}>
+            <button
+              className={`${styles.button} ${styles.google}`}
+              onClick={onClick}
+            >
               Google
             </button>
           </li>
         </ul>
+        <span>Don't have an account? Sign Up</span>
       </div>
+
       <Footer />
     </div>
   );
